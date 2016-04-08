@@ -177,7 +177,7 @@ if (coverage()) {
 
     $report = new PHP_CodeCoverage_Report_Clover();
 
-    $report->process(coverage(),$coverageFile);
+    $report->process(coverage(), $coverageFile);
 }
 
 exit(status());
